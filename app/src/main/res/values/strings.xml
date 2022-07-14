@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">RSUnhas</string>
+    <string name="text_1">
+        Alamat: Jl. Perintis Kemerdekaan No.KM 10, Tamalanrea Indah, Kec. Tamalanrea, Kota Makassar, Sulawesi Selatan
+        \n
+        Telepon: (0411) 591331 ext. 583100
+        \n
+        Jam Buka : 24 jam
+    </string>
+    <string name="text_2">
+        Rumah Sakit Unhas adalah rumah sakit pendidikan milik Universitas Hasanuddin (Unhas) yang terletak di Makassar-Sulawesi Selatan. RS Unhas didirikan untuk memenuhi UU No 20 tahun 2013 tentang Pendidikan Kedokteran yang menyatakan bahwa Fakultas Kedokteran harus memiliki Rumah Sakit Pendidikan untuk menhghasilkan tenaga kesehatan berkualitas.
+    </string>
+    <string name="text_3">
+        <b>MOTTO</b>
+        \n
+        <i>Tulus Melayani</i>
+        \n \n
+        <b>VISI</b>
+        \n
+        Menjadi pelopor terpercaya dalam mengintegrasikan Pendidikan, Penelitian dan Pemeliharaan Kesehatan yang bertaraf Internasional
+        \n \n
+        <b>MISI</b>
+        \n
+        1. Menciptakan tenaga profesional yang berstandard international dalam pendidikan, penelitian dan pemeliharaan kesehatan.
+        \n
+        2. Menciptakan lingkungan akademik yang optimal untuk mendukungpendidikan, penelitian dan pemeliharaan kesehatan.
+        \n
+        3. Mempelopori inovasi pemeliharaan kesehatan melalui penelitian yang unggul dan perbaikan mutu yang berkesinambungan.
+        \n
+        4. Memberikan pemeliharaan kesehatan secara terpadu dengan pendidikan, penelitian yang berstandard international tanpa melupakan fungsi sosial.
+        \n
+        5. Mengembangkan jejaring dengan institusi lain baik regional maupun international.
+
+    </string>
+
+    <string-array name="poli">
+        <item> </item>
+        <item>Poli Umum</item>
+        <item>Poli Obgin</item>
+        <item>Poli THT</item>
+    </string-array>
+
+</resources>

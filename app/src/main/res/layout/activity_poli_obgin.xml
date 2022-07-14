@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    android:orientation="vertical"
+    tools:context=".PoliObgin">
+
+    <ImageView
+        android:id="@+id/image"
+        android:onClick="kembali"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/back"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image"
+        android:layout_centerHorizontal="true"
+        android:text="AMBIL NOMOR ANTRIAN"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text1"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
+        android:fontFamily="sans-serif"
+        android:text="Nama Lengkap*"
+        android:textColor="@color/white" />
+
+    <EditText
+        android:id="@+id/namalengkap3"
+        android:layout_width="310dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/textview1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:background="@color/white"
+        android:hint="Nama Lengkap"
+        android:inputType="textPersonName"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/namalengkap3"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="50dp"
+        android:fontFamily="sans-serif"
+        android:text="Tanggal Lahir*"
+        android:textColor="@color/white" />
+
+    <EditText
+        android:id="@+id/tgllahir3"
+        android:layout_width="310dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/textview2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:background="@color/white"
+        android:clickable="true"
+        android:focusable="true"
+        android:hint="Tanggal Lahir"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/textview3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tgllahir3"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="50dp"
+        android:fontFamily="sans-serif"
+        android:text="Nomor Kontak"
+        android:textColor="@color/white" />
+
+    <EditText
+        android:id="@+id/telepon3"
+        android:layout_width="310dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/textview3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:background="@color/white"
+        android:hint="No. Telepon/WA"
+        android:inputType="number"
+        android:textSize="12dp"/>
+
+    <TextView
+        android:id="@+id/textview5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/telepon3"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="50dp"
+        android:fontFamily="sans-serif"
+        android:text="No. Rekam Medis"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/keterangan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/norek3"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="50dp"
+        android:fontFamily="sans-serif"
+        android:text="*Bagi Pasien yang telah memiliki rekam medis/pasien lama"
+        android:textColor="@color/white"
+        android:textSize="8dp" />
+
+    <EditText
+        android:id="@+id/norek3"
+        android:layout_width="310dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/textview5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:background="@color/white"
+        android:clickable="true"
+        android:focusable="true"
+        android:hint="No. Rekam Medis"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/textview6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/norek3"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="50dp"
+        android:fontFamily="sans-serif"
+        android:text="Tanggal Kunjungan"
+        android:textColor="@color/white" />
+
+    <EditText
+        android:id="@+id/tglkunjungan3"
+        android:layout_width="310dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/textview6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:background="@color/white"
+        android:clickable="true"
+        android:focusable="true"
+        android:hint="Tanggal Kunjungan"
+        android:textSize="12dp" />
+
+    <Button
+        android:id="@+id/btndaftar3"
+        android:onClick="daftar3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:text="Daftar"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        android:layout_below="@id/tglkunjungan3"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="50dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="tiket3"
+        android:layout_toLeftOf="@+id/btndaftar3"
+        android:layout_below="@id/tglkunjungan3"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        android:text="Ticket"
+        android:textSize="12dp"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"/>
+
+
+</RelativeLayout>
